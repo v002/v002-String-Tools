@@ -4,8 +4,8 @@
 Take a string and output structures of:
 * Words
 * Sentences
-*# Line Endings
-*# Paragraphs#
+* Line Endings
+* Paragraphs
 
 ####String Lexical Parser
 Output data gleaned from strings:
