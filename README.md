@@ -1,5 +1,4 @@
-#v002-String-Tools
-#me String Tools....
+#v002-String-Tools:
 
 ####String Tokenizer
 Take a string and output structures of:
