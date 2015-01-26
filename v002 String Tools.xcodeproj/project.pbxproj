@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B986C5C1A76E25300CD302B /* v002_String_Markov_GeneratorPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BED38D91791E61600807932 /* v002_String_Markov_GeneratorPlugIn.m */; };
+		1B986C5D1A76E25300CD302B /* v002_String_Linguistic_TaggerPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BED38E21793A83F00807932 /* v002_String_Linguistic_TaggerPlugIn.m */; };
+		1B986C5E1A76E25300CD302B /* v002_String_TrimPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE2F0717944B330013626D /* v002_String_TrimPlugIn.m */; };
+		1B986C5F1A76E25300CD302B /* v002_String_TokenizerPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE2F0B179481A40013626D /* v002_String_TokenizerPlugIn.m */; };
+		1B986C601A76E25300CD302B /* v002_String_Structure_ReplacePlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B016A17975E7000FCDC61 /* v002_String_Structure_ReplacePlugIn.m */; };
+		1BED38CB1791E61600807932 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED38CA1791E61600807932 /* Cocoa.framework */; };
+		1BED38CD1791E61600807932 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED38CC1791E61600807932 /* Quartz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B0B016917975E7000FCDC61 /* v002_String_Structure_ReplacePlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002_String_Structure_ReplacePlugIn.h; sourceTree = "<group>"; };
+		1B0B016A17975E7000FCDC61 /* v002_String_Structure_ReplacePlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002_String_Structure_ReplacePlugIn.m; sourceTree = "<group>"; };
+		1BCE2F0617944B330013626D /* v002_String_TrimPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002_String_TrimPlugIn.h; sourceTree = "<group>"; };
+		1BCE2F0717944B330013626D /* v002_String_TrimPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002_String_TrimPlugIn.m; sourceTree = "<group>"; };
+		1BCE2F0A179481A40013626D /* v002_String_TokenizerPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002_String_TokenizerPlugIn.h; sourceTree = "<group>"; };
+		1BCE2F0B179481A40013626D /* v002_String_TokenizerPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002_String_TokenizerPlugIn.m; sourceTree = "<group>"; };
+		1BED38C71791E61600807932 /* v002 String Tools.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "v002 String Tools.plugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BED38CA1791E61600807932 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1BED38CC1791E61600807932 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		1BED38CF1791E61600807932 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1BED38D01791E61600807932 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1BED38D11791E61600807932 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BED38D41791E61600807932 /* v002 String Tools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "v002 String Tools-Info.plist"; path = "v002 String Tools/v002 String Tools-Info.plist"; sourceTree = "<group>"; };
+		1BED38D81791E61600807932 /* v002_String_Markov_GeneratorPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = v002_String_Markov_GeneratorPlugIn.h; sourceTree = "<group>"; };
+		1BED38D91791E61600807932 /* v002_String_Markov_GeneratorPlugIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = v002_String_Markov_GeneratorPlugIn.m; sourceTree = "<group>"; };
+		1BED38DB1791E61600807932 /* v002 String Tools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "v002 String Tools-Prefix.pch"; path = "v002 String Tools/v002 String Tools-Prefix.pch"; sourceTree = "<group>"; };
+		1BED38E11793A83F00807932 /* v002_String_Linguistic_TaggerPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002_String_Linguistic_TaggerPlugIn.h; sourceTree = "<group>"; };
+		1BED38E21793A83F00807932 /* v002_String_Linguistic_TaggerPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002_String_Linguistic_TaggerPlugIn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BED38C31791E61600807932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BED38CB1791E61600807932 /* Cocoa.framework in Frameworks */,
+				1BED38CD1791E61600807932 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BED38BD1791E61600807932 = {
+			isa = PBXGroup;
+			children = (
+				1BED38D21791E61600807932 /* v002 String Tools */,
+				1BED38C91791E61600807932 /* Frameworks */,
+				1BED38C81791E61600807932 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BED38C81791E61600807932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BED38C71791E61600807932 /* v002 String Tools.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BED38C91791E61600807932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BED38CA1791E61600807932 /* Cocoa.framework */,
+				1BED38CC1791E61600807932 /* Quartz.framework */,
+				1BED38CE1791E61600807932 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BED38CE1791E61600807932 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BED38CF1791E61600807932 /* AppKit.framework */,
+				1BED38D01791E61600807932 /* CoreData.framework */,
+				1BED38D11791E61600807932 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1BED38D21791E61600807932 /* v002 String Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1BED38D81791E61600807932 /* v002_String_Markov_GeneratorPlugIn.h */,
+				1BED38D91791E61600807932 /* v002_String_Markov_GeneratorPlugIn.m */,
+				1BED38E11793A83F00807932 /* v002_String_Linguistic_TaggerPlugIn.h */,
+				1BED38E21793A83F00807932 /* v002_String_Linguistic_TaggerPlugIn.m */,
+				1BCE2F0617944B330013626D /* v002_String_TrimPlugIn.h */,
+				1BCE2F0717944B330013626D /* v002_String_TrimPlugIn.m */,
+				1BCE2F0A179481A40013626D /* v002_String_TokenizerPlugIn.h */,
+				1BCE2F0B179481A40013626D /* v002_String_TokenizerPlugIn.m */,
+				1B0B016917975E7000FCDC61 /* v002_String_Structure_ReplacePlugIn.h */,
+				1B0B016A17975E7000FCDC61 /* v002_String_Structure_ReplacePlugIn.m */,
+				1BED38D31791E61600807932 /* Supporting Files */,
+			);
+			path = "v002 String Tools";
+			sourceTree = "<group>";
+		};
+		1BED38D31791E61600807932 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BED38D41791E61600807932 /* v002 String Tools-Info.plist */,
+				1BED38DB1791E61600807932 /* v002 String Tools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "v002 String Tools";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BED38C61791E61600807932 /* v002 String Tools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BED38DE1791E61600807932 /* Build configuration list for PBXNativeTarget "v002 String Tools" */;
+			buildPhases = (
+				1BED38C21791E61600807932 /* Sources */,
+				1BED38C31791E61600807932 /* Frameworks */,
+				1BED38C51791E61600807932 /* ShellScript */,
+				1B986C541A76E1B800CD302B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "v002 String Tools";
+			productName = "v002 String Markov Generator";
+			productReference = 1BED38C71791E61600807932 /* v002 String Tools.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BED38BE1791E61600807932 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = v002;
+			};
+			buildConfigurationList = 1BED38C11791E61600807932 /* Build configuration list for PBXProject "v002 String Tools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1BED38BD1791E61600807932;
+			productRefGroup = 1BED38C81791E61600807932 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BED38C61791E61600807932 /* v002 String Tools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B986C541A76E1B800CD302B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BED38C51791E61600807932 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies the built plug-in to \"~/Library/Graphics/Quartz Composer Plug-Ins\" and overrides any previous version at that location\n\nmkdir -p \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins\"\nrm -rf \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/v002 String Tools.plugin\"\ncp -rf \"$BUILT_PRODUCTS_DIR/v002 String Tools.plugin\" \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BED38C21791E61600807932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B986C5D1A76E25300CD302B /* v002_String_Linguistic_TaggerPlugIn.m in Sources */,
+				1B986C5E1A76E25300CD302B /* v002_String_TrimPlugIn.m in Sources */,
+				1B986C5C1A76E25300CD302B /* v002_String_Markov_GeneratorPlugIn.m in Sources */,
+				1B986C601A76E25300CD302B /* v002_String_Structure_ReplacePlugIn.m in Sources */,
+				1B986C5F1A76E25300CD302B /* v002_String_TokenizerPlugIn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1BED38DC1791E61600807932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1BED38DD1791E61600807932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1BED38DF1791E61600807932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "v002 String Tools/v002 String Tools-Prefix.pch";
+				INFOPLIST_FILE = "v002 String Tools/v002 String Tools-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "v002 String Tools";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		1BED38E01791E61600807932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "v002 String Tools/v002 String Tools-Prefix.pch";
+				INFOPLIST_FILE = "v002 String Tools/v002 String Tools-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "v002 String Tools";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BED38C11791E61600807932 /* Build configuration list for PBXProject "v002 String Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BED38DC1791E61600807932 /* Debug */,
+				1BED38DD1791E61600807932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BED38DE1791E61600807932 /* Build configuration list for PBXNativeTarget "v002 String Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BED38DF1791E61600807932 /* Debug */,
+				1BED38E01791E61600807932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BED38BE1791E61600807932 /* Project object */;
+}
