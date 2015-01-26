@@ -20,7 +20,7 @@ Output data gleaned from strings:
 * Particles
 
 ####String Markov Generator
-Generate new Strings from input strings and keywords.
+Generate new strings from input strings and keywords.
 
 #### String Trim
 Trim character sets from strings
