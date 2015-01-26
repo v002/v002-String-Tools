@@ -32,7 +32,6 @@
 
 @dynamic inputString;
 
-@dynamic outputString;
 @dynamic outputWords;
 @dynamic outputSentences;
 @dynamic outputLineEndings;

@@ -34,7 +34,6 @@
 
 @property (strong) NSString* inputString;
 
-@property (strong) NSString* outputString;
 @property (strong) NSArray* outputWords;
 @property (strong) NSArray* outputSentences;
 @property (strong) NSArray* outputLineEndings;
