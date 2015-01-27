@@ -1,0 +1,3 @@
+[submodule "DictionaryKit"]
+	path = DictionaryKit
+	url = https://github.com/mattt/DictionaryKit.git
