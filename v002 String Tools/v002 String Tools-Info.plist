@@ -27,6 +27,7 @@
 		<string>v002_String_Linguistic_TaggerPlugIn</string>
 		<string>v002_String_TrimPlugIn</string>
 		<string>v002_String_Structure_ReplacePlugIn</string>
+		<string>v002_String_Define</string>
 	</array>
 </dict>
 </plist>
