@@ -12,6 +12,9 @@
 		1B986C5E1A76E25300CD302B /* v002_String_TrimPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE2F0717944B330013626D /* v002_String_TrimPlugIn.m */; };
 		1B986C5F1A76E25300CD302B /* v002_String_TokenizerPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE2F0B179481A40013626D /* v002_String_TokenizerPlugIn.m */; };
 		1B986C601A76E25300CD302B /* v002_String_Structure_ReplacePlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B016A17975E7000FCDC61 /* v002_String_Structure_ReplacePlugIn.m */; };
+		1BAF3C8A1A7848570041EEA6 /* v002_String_Define.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAF3C891A7848570041EEA6 /* v002_String_Define.m */; };
+		1BAF3C8E1A784EC10041EEA6 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAF3C8D1A784EC10041EEA6 /* CoreServices.framework */; };
+		1BAF3C941A784F2F0041EEA6 /* TTTDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAF3C931A784F2F0041EEA6 /* TTTDictionary.m */; };
 		1BED38CB1791E61600807932 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED38CA1791E61600807932 /* Cocoa.framework */; };
 		1BED38CD1791E61600807932 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED38CC1791E61600807932 /* Quartz.framework */; };
 /* End PBXBuildFile section */
@@ -19,6 +22,12 @@
 /* Begin PBXFileReference section */
 		1B0B016917975E7000FCDC61 /* v002_String_Structure_ReplacePlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002_String_Structure_ReplacePlugIn.h; sourceTree = "<group>"; };
 		1B0B016A17975E7000FCDC61 /* v002_String_Structure_ReplacePlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002_String_Structure_ReplacePlugIn.m; sourceTree = "<group>"; };
+		1BAF3C881A7848570041EEA6 /* v002_String_Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002_String_Define.h; sourceTree = "<group>"; };
+		1BAF3C891A7848570041EEA6 /* v002_String_Define.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002_String_Define.m; sourceTree = "<group>"; };
+		1BAF3C8D1A784EC10041EEA6 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		1BAF3C911A784F2F0041EEA6 /* DictionaryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictionaryKit.h; path = DictionaryKit/DictionaryKit/DictionaryKit.h; sourceTree = SOURCE_ROOT; };
+		1BAF3C921A784F2F0041EEA6 /* TTTDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTDictionary.h; path = DictionaryKit/DictionaryKit/TTTDictionary.h; sourceTree = SOURCE_ROOT; };
+		1BAF3C931A784F2F0041EEA6 /* TTTDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTDictionary.m; path = DictionaryKit/DictionaryKit/TTTDictionary.m; sourceTree = SOURCE_ROOT; };
 		1BCE2F0617944B330013626D /* v002_String_TrimPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002_String_TrimPlugIn.h; sourceTree = "<group>"; };
 		1BCE2F0717944B330013626D /* v002_String_TrimPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002_String_TrimPlugIn.m; sourceTree = "<group>"; };
 		1BCE2F0A179481A40013626D /* v002_String_TokenizerPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002_String_TokenizerPlugIn.h; sourceTree = "<group>"; };
@@ -42,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAF3C8E1A784EC10041EEA6 /* CoreServices.framework in Frameworks */,
 				1BED38CB1791E61600807932 /* Cocoa.framework in Frameworks */,
 				1BED38CD1791E61600807932 /* Quartz.framework in Frameworks */,
 			);
@@ -50,6 +60,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BAF3C951A784F340041EEA6 /* DictionaryKit */ = {
+			isa = PBXGroup;
+			children = (
+				1BAF3C911A784F2F0041EEA6 /* DictionaryKit.h */,
+				1BAF3C921A784F2F0041EEA6 /* TTTDictionary.h */,
+				1BAF3C931A784F2F0041EEA6 /* TTTDictionary.m */,
+			);
+			name = DictionaryKit;
+			sourceTree = "<group>";
+		};
 		1BED38BD1791E61600807932 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +90,7 @@
 		1BED38C91791E61600807932 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1BAF3C8D1A784EC10041EEA6 /* CoreServices.framework */,
 				1BED38CA1791E61600807932 /* Cocoa.framework */,
 				1BED38CC1791E61600807932 /* Quartz.framework */,
 				1BED38CE1791E61600807932 /* Other Frameworks */,
@@ -100,6 +121,9 @@
 				1BCE2F0B179481A40013626D /* v002_String_TokenizerPlugIn.m */,
 				1B0B016917975E7000FCDC61 /* v002_String_Structure_ReplacePlugIn.h */,
 				1B0B016A17975E7000FCDC61 /* v002_String_Structure_ReplacePlugIn.m */,
+				1BAF3C881A7848570041EEA6 /* v002_String_Define.h */,
+				1BAF3C891A7848570041EEA6 /* v002_String_Define.m */,
+				1BAF3C951A784F340041EEA6 /* DictionaryKit */,
 				1BED38D31791E61600807932 /* Supporting Files */,
 			);
 			path = "v002 String Tools";
@@ -194,8 +218,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B986C5D1A76E25300CD302B /* v002_String_Linguistic_TaggerPlugIn.m in Sources */,
+				1BAF3C8A1A7848570041EEA6 /* v002_String_Define.m in Sources */,
 				1B986C5E1A76E25300CD302B /* v002_String_TrimPlugIn.m in Sources */,
 				1B986C5C1A76E25300CD302B /* v002_String_Markov_GeneratorPlugIn.m in Sources */,
+				1BAF3C941A784F2F0041EEA6 /* TTTDictionary.m in Sources */,
 				1B986C601A76E25300CD302B /* v002_String_Structure_ReplacePlugIn.m in Sources */,
 				1B986C5F1A76E25300CD302B /* v002_String_TokenizerPlugIn.m in Sources */,
 			);
